@@ -1,0 +1,38 @@
+/* CSS Cascading Style Sheet */
+/* Je suis un commentaire CSS */
+
+/* On peut selectionner les noms de balises HTML */
+/* Consequences tous les elements de ce type seront modifiés */
+h1 {
+    color: red;
+}
+
+/* Cascading veut dire que les style s'écoule en cascade et que c'est la dernière valeur qui va s'afficher  */
+h1 {
+    color: orange;
+}
+
+/* On peut selectionner des balises spécifiques grâce aux class en utilisant le . */
+/* Conséquence tous les elements qui ont cette class seront modifiés */
+.subtitle {
+    color: blue;
+}
+
+/* Je peux selectionner plusieurs elements en meme temps en les séparant par une virgule */
+.comment,
+.subtitle-green {
+    color: green;
+}
+
+/* On peut selectionner des balises spécifiques par selecteur descendant */
+/* Ici les h2 qui se trouveraient dans une div qui a la class heading */
+.comment-paragraphe p {
+    color: rgb(224, 35, 35);
+}
+
+/* On peut selectionner une balise spécifique grâce à son id en utilisant un # */
+/* Conséquence l'element qui a cet id sera modifié */
+/* On préfère laisser les ID au Javascript sauf exception */
+#subtitle {
+    color: pink;
+}
