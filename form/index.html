@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML - Form</title>
-</head>
-<body>
-    <div>
-        <h1>Les formulaires</h1>
-        <label for="name">nom</label>
-        <input type="text" id="name">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Form</title>
+    </head>
+    <body>
+        <div>
+            <h1>Les formulaires</h1>
 
-        <label for="pswd">mot de passe</label>
-        <input type="password" id="pswd">
+            <!-- Un formulaire se compose de la balise <form></form> qui va entourer tous les champs -->
+            <form>
+                <div>
+                    <!-- Un champ de formulaire se compose d'un <label> et de son <input> -->
+                    <!-- Pour lier les deux, l'attribut for="" et id="" doivent avoir la même valeur et être unique dans le formulaire -->
+                    <label for="name">nom</label>
+                    <input type="text" id="name" autofocus />
+                </div>
 
-        <label for="date">date</label>
-        <input type="date" id="date">
-    </div>
-</body>
+                <div>
+                    <label for="pswd">mot de passe</label>
+                    <input type="password" id="pswd" />
+                </div>
+
+                <div>
+                    <label for="color">couleur</label>
+                    <input type="color" id="color" />
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" />
+                </div>
+
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" />
+                </div>
+
+                <div>
+                    <label for="message">message</label>
+                    <textarea id="message"></textarea>
+                </div>
+
+                <!-- Les inputs de type checkbox, radio, select, doivent avoir un attribut value="" afin d'avoir une valeur -->
+                <div>
+                    <label for="week">jour de la semaine</label>
+                    <select id="week">
+                        <option value="monday">lundi</option>
+                        <option value="tuesday">mardi</option>
+                        <option value="wednesday">mercredi</option>
+                    </select>
+                </div>
+
+                <div>
+                    <span>Vos plats préférés? : </span>
+                    <label for="pizza">pizza</label>
+                    <input type="checkbox" id="pizza" value="pizza" />
+                    <label for="burger">hamburgers</label>
+                    <input type="checkbox" id="burger" value="burger" />
+                </div>
+
+                <!-- Les input de type radio doivent avoir un attribut de plus, name="" -->
+                <!-- Ils doivent avoir la même valeur pour ne pouvoir valider qu'un seul des choix -->
+                <div>
+                    <span>Etes-vous d'accord?</span>
+                    <label for="yes">oui</label>
+                    <input type="radio" id="yes" value="yes" name="agree" />
+                    <label for="no">non</label>
+                    <input type="radio" id="no" value="no" name="agree" />
+                </div>
+
+                <!-- IMPORTANT un form doit avoir un input type="submit" pour soumettre le formulaire -->
+                <input type="submit" value="envoyer" />
+            </form>
+        </div>
+    </body>
 </html>
