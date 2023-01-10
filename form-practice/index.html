@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML - Formulaire Exercice</title>
+        <style>
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form>
+                <!-- raccourci Emmet -->
+                <!-- table>caption+tr*9>td*2  -->
+                <table>
+                    <caption>
+                        Mon premier formulaire
+                    </caption>
+                    <tr>
+                        <td>
+                            <label for="name">Pseudo</label>
+                        </td>
+                        <td>
+                            <input type="text" id="name" placeholder="je suis un message" autofocus required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pwd">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="pwd" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="transport">Véhicule</label>
+                        </td>
+                        <td>
+                            <select id="transport">
+                                <option value="car">voiture</option>
+                                <option value="bike">moto</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="about-you">Dites-nous en plus</label>
+                        </td>
+                        <td>
+                            <textarea name="" id="about-you"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sexe</td>
+                        <td>
+                            <input type="radio" id="men" name="sex" value="homme" />
+                            <label for="men">homme</label>
+                            <input type="radio" id="women" name="sex" value="femme" />
+                            <label for="women">femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sporrts pratiqués</td>
+                        <td>
+                            <input type="checkbox" id="tennis" value="tennis" />
+                            <label for="tennis">tennis</label>
+                            <input type="checkbox" id="foot" value="foot" />
+                            <label for="foot">foot</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Télécharger</label>
+                        </td>
+                        <td>
+                            <input type="file" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Envoyer" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
