@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+.about-us {
+    width: 80%;
+    min-width: 380px;
+    max-width: 1080px;
+    min-height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3)
+}
+
+.about-us h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+/* le titre en majuscule */
+/* marge en bas de 30px */
+
+/* paragraphe marge en dessous 20px */

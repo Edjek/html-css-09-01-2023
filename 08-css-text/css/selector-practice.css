@@ -1,17 +1,35 @@
 body {
     /* background-color: pink; */
     color: #333;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* SECTION TITRE */
 h1 {
     background-color: pink;
     color: #fff;
+}
+
+h1:hover {
+    background-color: green;
 }
 
 h2 {
     color: blue;
 }
 
+h5 {
+    text-align: right;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+
+.images h2{
+    text-transform: uppercase;
+}
 .title-red {
     color: red;
 }
@@ -26,4 +44,16 @@ h4, ul {
 
 ol {
     color: green;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.font-30 {
+    font-size: 30px;
 }
