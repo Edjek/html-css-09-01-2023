@@ -1,0 +1,29 @@
+body {
+    /* background-color: pink; */
+    color: #333;
+}
+
+h1 {
+    background-color: pink;
+    color: #fff;
+}
+
+h2 {
+    color: blue;
+}
+
+.title-red {
+    color: red;
+}
+
+.links h3, h5 {
+    color: purple;
+}
+
+h4, ul {
+    color: orange;
+}
+
+ol {
+    color: green;
+}
