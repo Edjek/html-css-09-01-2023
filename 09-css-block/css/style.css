@@ -8,14 +8,18 @@
 
 /* Pour faire hériter en cascade certaines propriétés générales pour toute la page */
 body {
-    /* les valeurs par d */
+    font-size: 18px;
 }
 
 h1 {
+    width: 80%;
+    height: 200px;
     margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
     background-color: rgb(59, 119, 231);
-    border: 2px solid rgb(0, 0, 0);
-
+    border: 5px solid #333;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
     color: #fff;
     text-align: center;
 }
@@ -26,7 +30,7 @@ h1 {
     /* Hauteur */
     /* Par défaut la valeur est sur auto { height: auto; } */
     /* height:300px; */
-    min-height: 150px;
+    min-height: 200px;
 
     /* Largeur */
     /* Par défaut la valeur est sur 100% { width: 100%; } */
@@ -50,20 +54,21 @@ h1 {
     padding: 20px;
 
     /* La propriété raccourci { border: 1px solid black; } permet de preciser la taille, le style et la couleur de la bordure */
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
 
     /* { border-radius: } permet d'arrondir les angles */
-    border-radius: 20px;
+    border-radius: 10px;
 
     /* { box-shadow: }  permet de créer une ombre */
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
 }
 
 .circle {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    /* Pour envoyer l'élément tout à droite, on met toute la marge disponible à gauche */
     margin-left: auto;
     border-radius: 50%;
     background-color: #eb5858;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.5);
 }
