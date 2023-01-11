@@ -34,17 +34,16 @@ body {
 }
 
 a {
-    color: pink;
-
-    /* Style sur le texte (souli
-    gné, barré..) */
+    /* Style sur le texte (souligné, barré..) */
     text-decoration: none;
     /* underline */
+
+    color: pink;
 }
 
 /* La pseudo class :hover signifie au survole */
 a:hover {
-    color:red;
+    color: red;
 }
 
 /* La pseudo class :visited signifie une fois que le lien a été cliqué une première fois */
