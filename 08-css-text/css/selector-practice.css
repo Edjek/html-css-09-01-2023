@@ -1,5 +1,4 @@
 body {
-    /* background-color: pink; */
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,19 +25,20 @@ h6 {
     text-decoration: underline;
 }
 
-
-.images h2{
+.images h2 {
     text-transform: uppercase;
 }
 .title-red {
     color: red;
 }
 
-.links h3, h5 {
+.links h3,
+h5 {
     color: purple;
 }
 
-h4, ul {
+h4,
+ul {
     color: orange;
 }
 
