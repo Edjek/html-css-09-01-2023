@@ -43,10 +43,10 @@ a {
 
 /* La pseudo class :hover signifie au survole */
 a:hover {
-    color: red;
+    color: rgb(186, 110, 123);
 }
 
 /* La pseudo class :visited signifie une fois que le lien a été cliqué une première fois */
 a:visited {
-    color: green;
+    color: rgb(128, 0, 124);
 }
