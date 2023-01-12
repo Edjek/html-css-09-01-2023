@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-/* Pour faire hériter en cascade certaines propriétés générales pour toute la page */
+/* On cible body faire hériter en cascade certaines propriétés générales pour toute la page */
 body {
     font-size: 18px;
 }
