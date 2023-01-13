@@ -5,6 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>HTML - Introduction</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+            body {
+                min-height: 2000px;
+            }
+        </style>
     </head>
     <body>
         <!-- Je suis un commentaire HTML, je n'apparait pas sur la page du navigateur -->
@@ -13,7 +21,7 @@
         <div>
             <h1>Je suis un titre de niveau 1</h1>
             <h2>Je suis un titre de niveau 2</h2>
-            <h3>Je suis un titre de niveau 3</h3>
+            <h3 id="up">Je suis un titre de niveau 3</h3>
             <h4>Je suis un titre de niveau 4</h4>
             <h5>Je suis un titre de niveau 5</h5>
             <h6>Je suis un titre de niveau 6</h6>
@@ -81,6 +89,9 @@
 
             <!-- lien vers une page de notre site -->
             <a href="view/contact.html">page contact</a>
+
+            <!-- lien interne -->
+            <a href="#up">lien interne</a>
 
             <!-- lien pour envoyer un mail -->
             <a href="mailto:admin@gmail.com">mail@gmail.com</a>

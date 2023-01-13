@@ -6,7 +6,30 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: #333;
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+/* MEDIA QUERY */
+/* 768px ecran de tablette */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* 360px ecran de smartphone */
+@media screen and (max-width: 360px) {
+    
+}
+
+/* Common screen sizes :
+    Mobile: 360
+    Mobile: 576
+    Tablet: 768
+    Laptop: 920
+    Desktop: 1200
+*/
